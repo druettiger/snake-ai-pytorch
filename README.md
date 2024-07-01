@@ -16,12 +16,12 @@ You can find all tutorials on my channel: [Playlist](https://www.youtube.com/pla
 - Python & pip: `sudo apt install python3-venv python3-pip`
   - check Python with `python3 --version` and
   - check pip with `python3 -m pip --version`
-- Install dependencies: `python -m pip install -r requirements.txt`
 
 ### Venv in VS Code
 
 - Open folder
-- Run `Python: Create Environment` (select `requirements.txt`)
+- Create Venv: `Python: Create Environment` (select `requirements.txt`)
+- Install dependencies: `python3 -m pip install -r requirements.txt`
 
 ### Add pip packages
 
