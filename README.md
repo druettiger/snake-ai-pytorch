@@ -8,3 +8,22 @@ You can find all tutorials on my channel: [Playlist](https://www.youtube.com/pla
 - Part 2: Learn how to setup the environment and implement the Snake game.
 - Part 3: Implement the agent that controls the game.
 - Part 4: Implement the neural network to predict the moves and train it.
+
+## Development
+
+### Requirements
+
+- Python & pip: `sudo apt install python3-venv python3-pip`
+  - check Python with `python3 --version` and
+  - check pip with `python3 -m pip --version`
+- Install dependencies: `python -m pip install -r requirements.txt`
+
+### Venv in VS Code
+
+- Open folder
+- Run `Python: Create Environment` (select `requirements.txt`)
+
+### Add pip packages
+
+- Run `python3 -m pip install PACKAGE`
+- Manually add output of `pip freeze` to `requirements.txt`
