@@ -13,17 +13,20 @@ You can find all tutorials on my channel: [Playlist](https://www.youtube.com/pla
 
 ### Requirements
 
-- Python & pip: `sudo apt install python3-venv python3-pip`
-  - check Python with `python3 --version` and
-  - check pip with `python3 -m pip --version`
+- Python: check with `python3 --version`
+- pip: check with `python3 -m pip --version`
+  - install with `sudo apt install python3-pip`
 
 ### Venv in VS Code
 
 - Open folder
-- Create Venv: `Python: Create Environment` (select `requirements.txt`)
-- Install dependencies: `python3 -m pip install -r requirements.txt`
+- Create Venv: `Python: Create Environment`
+- Install dependencies:
+  - Latest versions: `python3 -m pip install -r dependencies.txt`
+  - Tested versions: `python3 -m pip install -r requirements.txt`
 
-### Add pip packages
+### Add new packages
 
 - Run `python3 -m pip install PACKAGE`
-- Manually add output of `pip freeze` to `requirements.txt`
+- Add manually to `dependencies.txt`
+- Save with: `pip freeze > requirements.txt`
